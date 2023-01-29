@@ -1,0 +1,13 @@
+server:
+  port: 9090
+
+kie:
+  server:
+    url: http://localhost:8080/kie-server/services/rest/server
+    username: wbadmin
+    password: wbadmin
+
+ping-pong:
+  container-id: firstProject_1.0.0-SNAPSHOT
+  process-id: firstProject.pingPongTest1
+
